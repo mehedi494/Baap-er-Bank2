@@ -1,0 +1,35 @@
+.backgound-img{
+    background-image: url(./images/gradient-circle-loop-orange-abstract-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+input{
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    ;
+       
+}
+input:focus{
+    outline:2px solid rgb(223, 16, 61);
+  
+}
+
+.left-border{
+border-left: 8px solid rgb(71, 71, 71);
+
+border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(195, 97, 84), 
+      rgba(3, 33, 44, 0.308)
+    ) 1 100%;
+}
+.btn-color{
+    background-image: linear-gradient(
+      to bottom, 
+      rgb(195, 97, 84), 
+      rgba(3, 33, 44, 0.308)
+    );
+}
