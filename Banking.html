@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="banking.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+ 
     <title>Banking</title>
 </head>
-<body>
-    <h1>Well Come TO bankig Site</h1>
+<body class="bg-slate-300">
+    <div class="container  mx-auto grid   lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-4  mt-10  w-9/12 ">
+        <div class=" w-full card p-2 bg-green-400 rounded">
+            <h1 class="text-center text-3xl font-bold">DEPOSITE AMOUNT <br> <span >$</span>  <span class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
+            
+            <input type="number " placeholder="Enter your amount" class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
+            <button class="p-2 bg-slate-500 rounded  mt-3  block m-auto">Deposite</button>
+        </div>
+        <div class=" w-full card p-2 bg-gray-400 rounded">
+            <h1 class="text-center text-3xl font-bold">DEPOSITE AMOUNT <br> <span >$</span>  <span class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
+            
+            <input type="number " placeholder="Enter your amount" class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
+            <button class="p-2 bg-slate-500 rounded  mt-3  block m-auto">Deposite</button>
+        </div>
+        <div class=" w-full card p-2 bg-slate-500 rounded">
+            <h1 class="text-center text-3xl font-bold">DEPOSITE AMOUNT <br> <span >$</span>  <span class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
+            
+            <input type="number " placeholder="Enter your amount" class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
+            <button class="p-2 bg-slate-500 rounded  mt-3  block m-auto">Deposite</button>
+        </div>
+        <!-- <div class="card">card 2</div>
+        <div class="card">card 3</div> -->
+    </div>
+    
 </body>
 </html>

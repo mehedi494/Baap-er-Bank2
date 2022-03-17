@@ -1,5 +1,6 @@
 const button = document.getElementById("btn")
-button.addEventListener("click", function () {
+
+button.addEventListener("click", function logIn () {
     const emailText = document.getElementById('input-email')
     const email = emailText.value
     const passText = document.getElementById('input-pass')
@@ -17,3 +18,4 @@ button.addEventListener("click", function () {
     }
     // console.log(email,pass);
 })
+
