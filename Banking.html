@@ -10,28 +10,50 @@
     <title>Banking</title>
 </head>
 <body class="bg-slate-300">
-    <div class="container  mx-auto grid   lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-4  mt-10  w-9/12 ">
-        <div class=" w-full card p-2 bg-green-400 rounded">
-            <h1 class="text-center text-3xl font-bold">DEPOSITE AMOUNT <br> <span >$</span>  <span class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
-            
-            <input type="number " placeholder="Enter your amount" class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
-            <button class="p-2 bg-slate-500 rounded  mt-3  block m-auto">Deposite</button>
-        </div>
-        <div class=" w-full card p-2 bg-gray-400 rounded">
-            <h1 class="text-center text-3xl font-bold">DEPOSITE AMOUNT <br> <span >$</span>  <span class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
-            
-            <input type="number " placeholder="Enter your amount" class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
-            <button class="p-2 bg-slate-500 rounded  mt-3  block m-auto">Deposite</button>
-        </div>
-        <div class=" w-full card p-2 bg-slate-500 rounded">
-            <h1 class="text-center text-3xl font-bold">DEPOSITE AMOUNT <br> <span >$</span>  <span class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
-            
-            <input type="number " placeholder="Enter your amount" class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
-            <button class="p-2 bg-slate-500 rounded  mt-3  block m-auto">Deposite</button>
-        </div>
-        <!-- <div class="card">card 2</div>
-        <div class="card">card 3</div> -->
+    <header class="mt-10">
+        <h1 class="text-4xl font-bold text-center text-gray-600">Well come to Baaper Banking</h1>
+        <p  class="text-2xl font-semibold text-center text-gray-500">Your virtual  money guard</p>
+    </header>
+
+
+   <main>
+       <section>
+<div class="container  mx-auto grid content-center	   lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-4  mt-10  w-9/12 ">
+    <div class=" w-full card p-2 bg-green-400 rounded">
+        <h1 class="text-center text-3xl font-bold text-white">DEPOSITE AMOUNT <br> <span>$</span> <span
+                class="font-semibold text-5xl" id="deposite-amount">00</span></h1>
+
+        <input type="number " id="deposite-input-field" placeholder="Enter your amount"
+            class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
+        <button class="p-2 bg-slate-500 text-white rounded  mt-3  block m-auto" id="deposite-btn">Deposite</button>
     </div>
-    
+    <div class=" w-full card p-2 bg-gray-400 rounded">
+        <h1 class="text-center text-3xl font-bold text-white">WITHDRAW <br> <span>$</span> <span
+                class="font-semibold text-5xl" id="withdraw-amount">00</span></h1>
+
+        <input type="number " id="withdraw-input-field" placeholder="Enter your amount"
+            class="in-range:border-green-500 w-4/5 mt-5 p-2 rounded block m-auto"> <br>
+        <button class="p-2 bg-slate-500 text-white rounded  mt-3  block m-auto" id="withdrawbtn">Withdraw</button>
+    </div>
+    <div class=" w-full card p-2 bg-slate-500 rounded flex ">
+        <h1 class="my-auto w-full	 text-center text-3xl font-bold text-white">BALANCE <br> <i>$</i> <span
+                class="font-semibold text-5xl"  id="totalBalanceAmount">100</span></h1>
+
+
+    </div>
+
+
+</div>
+       </section>
+   </main>
+   <footer class="text-slate-500 mt-20">
+       <h4 class="text-center ">All @right reserver our bangladesh bank inc.</h4>
+       <div class="flex justify-center	">
+        <p class="ml-2">About us | </p>
+        <p class="ml-2">Location | </p>
+        <p class="ml-2"> Contact </p>
+    </div>
+   </footer>
+    <script src="./banking.js"></script>
 </body>
 </html>
